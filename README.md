@@ -1,11 +1,12 @@
-Todo List Application
-Overview
+# Todo List Application
+
+# Overview
 This is a pure HTML, CSS, and JavaScript todo list application with a modern Bootstrap dark-themed frontend. The application provides a clean interface for managing tasks with features including search, filtering, and pagination. It uses the DummyJSON API (https://dummyjson.com/todos) as a backend service for todo operations. No server-side framework is required - it runs entirely in the browser.
 
-User Preferences
+# User Preferences
 Preferred communication style: Simple, everyday language.
 
-System Architecture
+# System Architecture
 Frontend Architecture
 Framework: Pure HTML/CSS/JavaScript with Bootstrap 5 dark theme
 Styling: Bootstrap CDN with custom CSS overrides for enhanced UX
@@ -64,10 +65,3 @@ No Configuration Required: All settings are embedded in the HTML file
 API Integration: Direct communication with DummyJSON API
 Responsive Design: Works on desktop, tablet, and mobile devices
 Architecture Decisions
-Problem: Need for a simple todo management interface Solution: Pure client-side HTML/CSS/JavaScript application Rationale: Eliminates server complexity while providing full functionality through API integration
-
-Problem: Data persistence and API integration Solution: DummyJSON API for demo/development purposes Rationale: Provides realistic API interactions with comprehensive todo data without database complexity
-
-Problem: Modern, accessible UI design Solution: Bootstrap dark theme with custom enhancements Rationale: Rapid development with professional appearance and accessibility features
-
-Note: The current architecture is designed for development and demonstration. For production use, consider implementing proper data persistence, authentication, and a custom backend API. The application currently runs entirely in the browser and can be deployed to any static hosting service.
